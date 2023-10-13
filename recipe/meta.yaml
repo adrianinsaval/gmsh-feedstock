@@ -41,7 +41,7 @@ outputs:
         - libblas
         - liblapack
         - gmp  # [not win]
-        - occt
+        - occt =7.6.3
         - fltk
         - libpng
         - libjpeg-turbo
