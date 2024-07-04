@@ -1,5 +1,3 @@
-BUILD:
-- aarch64-conda_cos7-linux-gnu
 c_compiler:
 - gcc
 c_compiler_version:
@@ -10,14 +8,12 @@ c_stdlib_version:
 - '2.17'
 cairo:
 - '1'
-cdt_arch:
-- aarch64
 cdt_name:
 - cos7
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge main
+- freecad main
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -40,7 +36,7 @@ pin_run_as_build:
   occt:
     max_pin: x.x
 target_platform:
-- linux-aarch64
+- linux-64
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
